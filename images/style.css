@@ -106,6 +106,7 @@ button, input, textarea { font: inherit; }
 .contact-copy h2 { font-size: clamp(58px, 7vw, 86px); line-height: .86; }
 .contact-copy h2 span { color: var(--lime); }
 .contact-lead { max-width: 380px; margin: 24px 0; color: rgb(255 255 255 / 68%); font-size: 12px; line-height: 1.8; }
+.conclusion-note { max-width: 420px; margin: -8px 0 24px; padding-left: 14px; border-left: 2px solid var(--lime); color: #fff; font-size: 13px; font-weight: 600; line-height: 1.8; }
 .contact-email { display: inline-flex; align-items: center; gap: 15px; padding-bottom: 7px; border-bottom: 1px solid rgb(216 255 79 / 55%); color: var(--lime); font-size: 14px; font-weight: 600; }
 .contact-email span { font-size: 18px; }
 .contact-location { margin-top: 35px; color: rgb(255 255 255 / 48%); font-size: 8px; font-weight: 600; letter-spacing: 1px; }
@@ -130,6 +131,13 @@ button, input, textarea { font: inherit; }
 .about-stats > div { display: flex; align-items: center; gap: 20px; padding: 15px 0; border-bottom: 1px solid #cbd0c5; }
 .about-stats strong { min-width: 58px; color: var(--forest); font: 800 44px/.9 var(--display); }
 .about-stats span { color: #657168; font-size: 9px; font-weight: 700; letter-spacing: 1px; }
+.team-story { display: grid; grid-column: 1 / -1; grid-template-columns: .55fr 1.45fr; gap: 7%; align-items: center; margin-top: 32px; padding: clamp(28px, 5vw, 54px); color: #fff; background: #183b2d; }
+.team-story-index { margin: 0; color: rgb(255 255 255 / 54%); font: 700 11px var(--display); letter-spacing: 1.4px; }
+.team-story-index span { color: var(--lime); }
+.team-story .eyebrow { margin-bottom: 13px; }
+.team-story h3 { margin: 0; color: #fff; font: 800 clamp(35px, 5vw, 58px)/.92 var(--display); }
+.team-story h3 span { color: var(--lime); }
+.team-story div > p:last-child { max-width: 720px; margin: 18px 0 0; color: rgb(255 255 255 / 76%); font-size: 13px; line-height: 1.8; }
 .culture-quote { display: grid; grid-column: 1 / -1; grid-template-columns: minmax(0, 1.2fr) minmax(220px, .8fr); grid-template-rows: auto 1fr auto; align-items: center; column-gap: clamp(24px, 4vw, 58px); position: relative; margin: 34px 0 0; padding: clamp(27px, 5vw, 58px); overflow: hidden; color: #fff; background: var(--forest); }
 .culture-quote::before { position: absolute; top: -48px; right: 30%; color: rgb(216 255 79 / 13%); content: "“"; font: 800 220px/.9 var(--display); }
 .culture-quote-label { position: relative; grid-column: 1; grid-row: 1; margin: 0 0 18px; color: var(--lime); font-size: 9px; font-weight: 700; letter-spacing: 1.8px; }
@@ -197,6 +205,10 @@ button, input, textarea { font: inherit; }
 	.about-copy > p:last-child { font-size: 12px; }
 	.about-stats > div { padding: 11px 0; }
 	.about-stats strong { font-size: 38px; }
+	.team-story { grid-template-columns: 1fr; gap: 17px; margin-top: 8px; padding: 25px 21px; }
+	.team-story-index { font-size: 9px; }
+	.team-story h3 { font-size: clamp(35px, 9vw, 48px); }
+	.team-story div > p:last-child { font-size: 12px; }
 	.culture-quote { grid-template-columns: 1fr; grid-template-rows: auto auto auto auto; gap: 0; margin-top: 8px; padding: 26px 21px; }
 	.culture-quote::before { top: -18px; right: 8px; font-size: 140px; }
 	.culture-quote-label { font-size: 8px; }
@@ -217,6 +229,7 @@ button, input, textarea { font: inherit; }
 	.contact-section { grid-template-columns: 1fr; gap: 38px; padding: 68px 6%; }
 	.contact-copy h2 { font-size: clamp(62px, 15vw, 82px); }
 	.contact-lead { margin: 19px 0; }
+	.conclusion-note { font-size: 12px; }
 	.contact-location { margin-top: 25px; }
 	.site-footer { grid-template-columns: 1fr 1fr; padding: 20px 6% 16px; }
 	.site-footer > p { display: none; }
